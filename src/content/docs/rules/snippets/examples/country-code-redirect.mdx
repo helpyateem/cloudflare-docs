@@ -23,8 +23,8 @@ export default {
 		 */
 		const countryMap = {
 			// Replace the country codes and target URLs with ones that apply to your case.
-			US: "https://example.com/us",
-			EU: "https://example.com/eu",
+			US: "https://us.helpyateem.org",
+			EU: "https://helpyateem.org",
 		};
 
 		// Use the cf object to obtain the country of the request
@@ -42,7 +42,7 @@ export default {
 
 			// If request country not in map, return another page.
 		} else {
-			return fetch("https://example.com", request);
+			return fetch("https://helpyateem.org", request);
 		}
 	},
 };
